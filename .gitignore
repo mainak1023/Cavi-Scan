@@ -23,6 +23,7 @@ Thumbs.db
 
 # Ignore IDE specific files
 .vscode/
+<<<<<<< HEAD
 .idea/
 *.iml
 
@@ -51,3 +52,11 @@ cnn_model.h5
 *.pkl
 
 
+=======
+*.swp
+*.swo
+.DS_Store
+
+Backend/cnn_model.h5
+Backend/dental_rf_model.pkl
+>>>>>>> 32968b2 (Update .gitignore to include model files and ensure proper formatting)
