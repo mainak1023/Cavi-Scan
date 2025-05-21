@@ -28,14 +28,14 @@ const teamMembers = [
     image: "/api/placeholder/400/400",
     bio: "Dr. Patel oversees clinical validation and ensures the system meets the practical needs of dental professionals.",
     specialization: "Clinical Validation"
-  },
-  {
-    name: "Emma Wilson",
-    role: "Data Scientist",
-    image: "/api/placeholder/400/400",
-    bio: "Emma leads the data collection and preprocessing pipelines that feed our machine learning models with high-quality training data.",
-    specialization: "Data Processing"
   }
+  // {
+  //   name: "Emma Wilson",
+  //   role: "Data Scientist",
+  //   image: "/api/placeholder/400/400",
+  //   bio: "Emma leads the data collection and preprocessing pipelines that feed our machine learning models with high-quality training data.",
+  //   specialization: "Data Processing"
+  // }
 ];
 
 const projectGuide = {
