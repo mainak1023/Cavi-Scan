@@ -16,18 +16,18 @@ const teamMembers = [
     specialization: "AI & Dental Imaging"
   },
   {
-    name: "Dr. Michael Rodriguez",
-    role: "Machine Learning Engineer",
+    name: "Shibam Mukherjee",
+    role: "Student Researcher",
     image: "/api/placeholder/400/400",
-    bio: "Dr. Rodriguez developed the core machine learning algorithms behind Caviscan's cavity detection capabilities.",
+    bio: "Shibam is a student researcher focusing on data collection and preprocessing. He plays a key role in preparing the dataset for training our models.",
     specialization: "Neural Networks"
   },
   {
-    name: "Dr. Aisha Patel",
-    role: "Dental Researcher",
+    name: "Smriti Roy",
+    role: "Student Researcher",
     image: "/api/placeholder/400/400",
-    bio: "Dr. Patel oversees clinical validation and ensures the system meets the practical needs of dental professionals.",
-    specialization: "Clinical Validation"
+    bio: "Smriti is a student researcher with a background in computer vision. She assists in developing the algorithms that power Caviscan's cavity detection.",
+    specialization: "Computer Vision"
   }
   // {
   //   name: "Emma Wilson",
@@ -39,16 +39,16 @@ const teamMembers = [
 ];
 
 const projectGuide = {
-  name: "Prof. Sarah Johnson",
+  name: "Prof. Dr. Pabitra Kumar Dey",
   role: "Project Guide & Mentor",
   image: "/api/placeholder/400/400",
-  bio: "Prof. Johnson is a renowned expert in medical AI applications with over 15 years of experience. She provides strategic direction and academic oversight to the Caviscan project.",
+  bio: " Prof. Dey is a renowned expert in machine learning and its applications in healthcare. He provides guidance and mentorship to the Caviscan team, ensuring that our research aligns with the latest advancements in AI technology.",
   credentials: [
-    "Ph.D. in Computer Science, Stanford University",
-    "Former Research Lead at Medical Imaging Institute",
-    "Author of 'AI in Modern Healthcare' (2023)"
+    "Ph.D. in Computer Science, Burdwan University",
+    "Associate Professor & HOD of Computer Science,Dr. B.C. Roy Engineering College, MAKAUT.",
+    "Researched in Machine Learning and its different sub-domains for over 16 years.",
   ],
-  quote: "The intersection of AI and dentistry represents an exciting frontier that can fundamentally transform preventative dental care."
+  quote: "AI is transforming dental care from reactive to proactive, enabling earlier intervention and better outcomes."
 };
 
 const AboutPage = () => {
