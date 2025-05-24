@@ -44,7 +44,7 @@ const Navbar = () => {
   };
 
   return (
-    <header 
+    <header
       className={cn(
         'fixed top-0 left-0 right-0 z-50 transition-all duration-300',
         isScrolled ? 'bg-background/90 backdrop-blur-md shadow-sm' : 'bg-transparent'
@@ -67,35 +67,34 @@ const Navbar = () => {
             <Link to="/about" className="text-foreground hover:text-caviscan-blue transition-colors">
               About
             </Link>
-            <div className="relative group">
-              <button className="flex items-center text-foreground hover:text-caviscan-blue transition-colors">
-                Documentation <ChevronDown className="ml-1 w-4 h-4" />
-              </button>
-              <div className="absolute left-0 mt-2 w-48 bg-card rounded-md shadow-lg overflow-hidden z-20 opacity-0 group-hover:opacity-100 invisible group-hover:visible transition-all duration-300 transform origin-top-left">
-                <Link to="/documentation" className="block px-4 py-2 text-sm text-foreground hover:bg-muted hover:text-caviscan-blue transition-colors">
-                  Overview
-                </Link>
-                <Link to="/documentation#technical" className="block px-4 py-2 text-sm text-foreground hover:bg-muted hover:text-caviscan-blue transition-colors">
-                  Technical Details
-                </Link>
-                <Link to="/documentation#usage" className="block px-4 py-2 text-sm text-foreground hover:bg-muted hover:text-caviscan-blue transition-colors">
-                  Usage Guide
-                </Link>
-              </div>
-            </div>
+            {/* <div className="relative group">
+          <button className="flex items-center text-foreground hover:text-caviscan-blue transition-colors">
+            Documentation <ChevronDown className="ml-1 w-4 h-4" />
+          </button>
+          <div className="absolute left-0 mt-2 w-48 bg-card rounded-md shadow-lg overflow-hidden z-20 opacity-0 group-hover:opacity-100 invisible group-hover:visible transition-all duration-300 transform origin-top-left">
+            <Link to="/documentation" className="block px-4 py-2 text-sm text-foreground hover:bg-muted hover:text-caviscan-blue transition-colors">
+              Overview
+            </Link>
+            <Link to="/documentation#technical" className="block px-4 py-2 text-sm text-foreground hover:bg-muted hover:text-caviscan-blue transition-colors">
+              Technical Details
+            </Link>
+            <Link to="/documentation#usage" className="block px-4 py-2 text-sm text-foreground hover:bg-muted hover:text-caviscan-blue transition-colors">
+              Usage Guide
+            </Link>
+          </div> */}
           </nav>
 
           {/* Right Side Items */}
           <div className="hidden md:flex items-center space-x-4">
             <ThemeToggle />
-            
+
             {/* Login and signup buttons have been removed */}
           </div>
 
           {/* Mobile Menu Button */}
           <div className="flex items-center space-x-2 md:hidden">
             <ThemeToggle />
-            <button 
+            <button
               className="p-2 rounded-md text-foreground focus:outline-none"
               onClick={toggleMobileMenu}
             >
@@ -112,33 +111,33 @@ const Navbar = () => {
           )}
         >
           <div className="flex flex-col space-y-4 pt-2">
-            <Link 
-              to="/" 
+            <Link
+              to="/"
               className="px-4 py-2 rounded-md text-foreground hover:bg-muted transition-colors"
               onClick={() => setIsMobileMenuOpen(false)}
             >
               Home
             </Link>
-            <Link 
-              to="/about" 
+            <Link
+              to="/about"
               className="px-4 py-2 rounded-md text-foreground hover:bg-muted transition-colors"
               onClick={() => setIsMobileMenuOpen(false)}
             >
               About
             </Link>
-            <Link 
-              to="/documentation" 
+            <Link
+              to="/documentation"
               className="px-4 py-2 rounded-md text-foreground hover:bg-muted transition-colors"
               onClick={() => setIsMobileMenuOpen(false)}
             >
               Documentation
             </Link>
-            
+
             {/* Login and signup buttons have been removed from mobile menu */}
           </div>
         </div>
-      </div>
-    </header>
+      </div >
+    </header >
   );
 };
 
