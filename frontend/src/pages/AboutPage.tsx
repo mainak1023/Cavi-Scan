@@ -25,7 +25,7 @@ const teamMembers = [
     name: "Smriti Roy",
     role: "Student Researcher",
     image: "/assets/smriti.jpeg",
-    bio: "Smriti is a student researcher with a background in computer vision. She assists in developing the algorithms that power Caviscan's cavity detection.",
+    bio: "Smriti is a student researcher in computer vision, supporting model training and performance evaluation for CaviScan's cavity detection technology.",
     specialization: "Computer Vision",
   },
 ]
