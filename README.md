@@ -22,15 +22,3 @@
 - 🌐 Built with TensorFlow, React.js + Vite, Python
 
 ---
-
-## 🏗️ Architecture
-
-```mermaid
-flowchart TD
-    A[Image Input (Intraoral/Radiograph)] --> B[Preprocessing & Augmentation]
-    B --> C[Custom CNN]
-    B --> D[VGG-16 (Transfer Learning)]
-    C --> E[Prediction]
-    D --> E
-    E --> F[Web UI with Result Display]
-    F --> G[AI Suggestions via API]
